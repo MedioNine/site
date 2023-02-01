@@ -1,0 +1,34 @@
+.navbar-container {
+    background-color: #5E17EB;
+    //position: fixed;
+    top: 0;
+    width: 100%;
+    //width: 100vw;
+    height: 70px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+.navigation {
+    display: flex;
+    gap: 30px;
+}
+
+.logo-container {
+    display: flex;
+    gap: 20px;
+
+    .btn-tertiary {
+        color:white;
+    }
+    .btn-tertiary:hover {
+        color:#f3f3f3;
+    }
+}
+
+#slider {
+    display: none;
+}
